@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import SWRegistration from "./SWRegistration";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Music Calculator",
   description: "Proyecto musical en Next.js",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -51,7 +53,7 @@ export default function RootLayout({
             </div>
           </nav>
         </header>
-
+        <SWRegistration/>
         <main className="pt-24">
           {children}
         </main>
