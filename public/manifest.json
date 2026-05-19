@@ -1,0 +1,24 @@
+{
+"name": "Estadisticas de tu music!",
+"short_name": "estMusic",
+"description": "Esta es mi app de estadisticas de musica",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#0a84ff",
+"theme_color": "#0a84ff",
+"icons": [
+{
+"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJ2ourPYmeuRqw0AzHZvBQo233WKx8MKCLQ&s",
+"sizes": "192x192",
+"type": "image/png",
+"purpose": "any"
+},
+{
+"src": "https://cdn-icons-png.flaticon.com/512/5853/5853779.png",
+"sizes": "512x512",
+"type": "image/png",
+"purpose": "maskable"
+
+}
+]
+}
